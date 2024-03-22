@@ -1,11 +1,11 @@
-streamlit
 google-generativeai
-python-dotenv
-langchain
-PyPDF2
-chromadb==0.3.29
+chromadb==0.4.22
 langchain_google_genai
 fpdf2
-langchain-community
 sqlite3>=3.35.0
 python
+langchain_community==0.0.16
+langchain==0.0.184
+PyPDF2==3.0.1
+python-dotenv==1.0.0
+streamlit==1.18.1
