@@ -3,7 +3,7 @@ google-generativeai
 python-dotenv
 langchain
 PyPDF2
-chromadb>0.3.29
+chromadb==0.3.29
 langchain_google_genai
 fpdf2
 langchain-community
