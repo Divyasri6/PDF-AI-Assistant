@@ -3,7 +3,7 @@ chromadb==0.4.22
 langchain_google_genai
 fpdf2
 langchain_community==0.0.16
-langchain==0.0.184
-PyPDF2==3.0.1
-python-dotenv==1.0.0
-streamlit==1.18.1
+langchain
+PyPDF2
+python-dotenv
+streamlit
