@@ -2,7 +2,6 @@ google-generativeai
 chromadb==0.4.22
 langchain_google_genai
 fpdf2
-python
 langchain_community==0.0.16
 langchain==0.0.184
 PyPDF2==3.0.1
