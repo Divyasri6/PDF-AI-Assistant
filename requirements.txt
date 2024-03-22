@@ -7,4 +7,4 @@ chromadb
 langchain_google_genai
 fpdf2
 langchain-community
-sqlite3>=3.35
+sqlite3>=3.35.0
