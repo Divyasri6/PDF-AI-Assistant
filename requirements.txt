@@ -6,4 +6,4 @@ PyPDF2
 chromadb
 langchain_google_genai
 fpdf2
-
+langchain-community

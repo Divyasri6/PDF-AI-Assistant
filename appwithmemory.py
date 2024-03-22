@@ -3,7 +3,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 import os
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 import google.generativeai as genai
-from langchain.vectorstores import Chroma
+from langchain_community.vectorstores import Chroma
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferMemory
@@ -193,8 +193,7 @@ def main():
                 st.session_state.vectorstore = vectorstore  # Save vectorstore in session state
 
                 st.success("Done")
-        else:
-            st.warning("Please upload PDF files before processing.")     
+       
             
 if __name__ == "__main__":
     main()
